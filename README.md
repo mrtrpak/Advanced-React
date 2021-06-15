@@ -6,3 +6,9 @@
 
 ## Topics
 
+## React Concepts
+
+- React handles the DOM
+- Build websites like building blocks
+- React is unidirectional data flow
+- React is just the UI
