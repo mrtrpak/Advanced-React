@@ -3,6 +3,14 @@ import logo from "./logo.svg";
 import "./App.css";
 
 class ClassComponent extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      string: 'Hello There World'
+    };
+  };
+  
   render() {
     return (
       <div className="App">
@@ -20,6 +28,7 @@ class ClassComponent extends Component {
           Learn React
         </a>
       </header>
+      <button>Change Text</button>
     </div>
     )
   };
