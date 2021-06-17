@@ -10,14 +10,15 @@ class ClassComponent extends Component {
       string: 'Hello There World'
     };
   };
-  
+
   render() {
+    const { string } = this.state;
     return (
       <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello There World
+          {string}
         </p>
         <a
           className="App-link"
