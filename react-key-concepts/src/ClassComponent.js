@@ -29,7 +29,11 @@ class ClassComponent extends Component {
           Learn React
         </a>
       </header>
-      <button>Change Text</button>
+      <button 
+        onClick={() => this.setState({ string: 'Thanks for clicking' })}
+      >
+        Change Text
+      </button>
     </div>
     )
   };
